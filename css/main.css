@@ -1,0 +1,48 @@
+/*
+General
+ */
+
+body {
+  font-family: Verdana,Geneva,"Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+h1 {
+  font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+}
+/*
+Page header
+ */
+.hero-container {
+  min-height: 100vh;
+  display: flex;
+  background-color: red;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.hero-content {
+  position: relative;
+  max-width: 100%;
+  min-width: 240px;
+  width: 700px;
+  margin: 0 auto;
+}
+.hero-canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+}
+.hero-content h1, .hero-content h2, .hero-content p {
+  text-align: center;
+  font-weight: 100;
+}
+.hero-content h1 {
+  margin: 0;
+  font-size: 5rem;
+  text-align: center;
+}
+.hero-nav {
+  text-align: center;
+}
