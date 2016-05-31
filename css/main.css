@@ -12,9 +12,15 @@ h1 {
 Page header
  */
 .hero-container {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#01665e+2,35978f+17,f5f5f5+51,dfc27d+75,543005+97&1+0,0.5+52,1+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#01665e+2,35978f+17,f5f5f5+51,dfc27d+74,56460c+100&1+0,0.5+52,1+100 */
+  background: -moz-linear-gradient(-45deg, rgba(1,102,94,1) 0%, rgba(1,102,94,0.98) 2%, rgba(53,151,143,0.84) 17%, rgba(245,245,245,0.51) 51%, rgba(244,243,240,0.5) 52%, rgba(223,194,125,0.73) 74%, rgba(86,70,12,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(1,102,94,1) 0%,rgba(1,102,94,0.98) 2%,rgba(53,151,143,0.84) 17%,rgba(245,245,245,0.51) 51%,rgba(244,243,240,0.5) 52%,rgba(223,194,125,0.73) 74%,rgba(86,70,12,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(1,102,94,1) 0%,rgba(1,102,94,0.98) 2%,rgba(53,151,143,0.84) 17%,rgba(245,245,245,0.51) 51%,rgba(244,243,240,0.5) 52%,rgba(223,194,125,0.73) 74%,rgba(86,70,12,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01665e', endColorstr='#56460c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
   min-height: 100vh;
   display: flex;
-  background-color: red;
   align-items: center;
   width: 100%;
   overflow: hidden;
